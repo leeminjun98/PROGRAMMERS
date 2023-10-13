@@ -1,5 +1,5 @@
 n의 자릿수를 구할때 -> 자연수를 문자열로 바꾸는 string.valueOf(n)을 사용
-string자르기 -> str.substring(start)는 첫index부터 다자름, str.substring(a,b)는 index a부터 b까지 잘라서 넣음.ex) String cut = str.substring(a,b);
+string자르기 -> str.substring(start)는 첫index부터 다자름, str.substring(a,b)는 index a부터 b전까지 잘라서 넣음.ex) String cut = str.substring(a,b);
 str.indexOf() -> str.indexOf("찾을문자") 라고 하면 찾을문자가 있는 시작index를 반환해줌.
 str.contains() -> str.contains("찾을문자")라고 하면 "찾을문자"가 스트링안에 포함되어 있는지를 반환해줌.
-
+str.charAt(i)하면 str의 i+1번째 index에 있는 문자가 뭔지 알 수 있다.
