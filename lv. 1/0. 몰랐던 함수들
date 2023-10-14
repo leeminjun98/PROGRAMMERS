@@ -5,3 +5,5 @@ str.contains() -> str.contains("찾을문자")라고 하면 "찾을문자"가 �
 str.charAt(i)하면 str의 i+1번째 index에 있는 문자가 뭔지 알 수 있다.
 Integer.toString()-> 정수를 스트링으로 변환, Long.toString() -> 정수를 스트링으로 변환
 Integer.parseInt(string) -> 스트링을 정수로 변환
+Arrays.sort(배열이름)하면 오름차순으로 자동으로 정렬해준다.
+Arrays.sort(배열이름,Collections.reverseOrder()); 하면 내림차순으로 정렬.
