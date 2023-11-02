@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//string을 쪼개서 배열로 넣은다음, 각 index별로 바꾸고, 새로운 string에 순차적으로 붙이기.
     public String solution(String s) {
         String answer="";
         int count=0;
