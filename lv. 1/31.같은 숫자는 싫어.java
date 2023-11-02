@@ -20,3 +20,5 @@ public class Solution {
         return answer;
     }
 }
+
+//스택을 이용하여 풀 수도 있음.
