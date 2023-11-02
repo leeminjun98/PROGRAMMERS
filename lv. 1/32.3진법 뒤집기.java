@@ -21,3 +21,15 @@ class Solution {
         return answer;
     }
 }
+
+//다른풀이 
+class Solution {
+    public int solution(int n) {
+        String str="";
+        while(n>0){
+            str+=n%3;
+            n=n/3;
+        } 
+        return Integer.parseInt(str,3);//str을 3진법으로 해석하여, 10진수로 반환한다.
+    }
+}
