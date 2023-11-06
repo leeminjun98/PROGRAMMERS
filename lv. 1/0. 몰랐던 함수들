@@ -9,3 +9,4 @@ Arrays.sort(배열이름)하면 오름차순으로 자동으로 정렬해준다.
 Arrays.sort(배열이름,Collections.reverseOrder()); 하면 내림차순으로 정렬.
 문자열을 배열로 ->> char[] arr = str.toCharArray();
 char 배열을 문자열로 변환하려면 ->> String str1 = String.valueOf(charArray1); 아니면 String str2 = new String(charArray1);
+문자열치환함수 --> s = s.replace(string1, string2); 모든 string1을 string2로 치환시킨다
