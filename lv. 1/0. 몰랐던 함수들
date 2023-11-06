@@ -7,3 +7,5 @@ Integer.toString()-> 정수를 스트링으로 변환, Long.toString() -> 정수
 Integer.parseInt(string) -> 스트링을 정수로 변환
 Arrays.sort(배열이름)하면 오름차순으로 자동으로 정렬해준다.
 Arrays.sort(배열이름,Collections.reverseOrder()); 하면 내림차순으로 정렬.
+문자열을 배열로 ->> char[] arr = str.toCharArray();
+char 배열을 문자열로 변환하려면 ->> String str1 = String.valueOf(charArray1); 아니면 String str2 = new String(charArray1);
